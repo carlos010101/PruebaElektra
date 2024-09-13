@@ -11,7 +11,14 @@ import SwiftUI
 struct PruebaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(
+                viewModel: MainViewModel(
+                    repository: ProductRepository(
+                        network: Network()
+                    )
+                )
+            )
+            .preferredColorScheme(.light)
         }
     }
 }
