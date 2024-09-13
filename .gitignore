@@ -1,0 +1,56 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+!default.xcworkspace/contents.xcworkspacedata
+.idea/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Accesos directos a proyectos, archivos de entorno y configuraciones locales
+*.DS_Store
+*.env
+*.local
+
+# Archivos de log y otros temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos que genera el sistema operativo
+.DS_Store
+*.swp
+*.lock
+
+# Archivos creados por Xcode durante el proceso de debugging
+*.mode1v3
+*.mode2v3
+
+# Archivos de resultados de tests
+test-results/
+
+# Archivos de configuración de Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/**/*.log
+fastlane/report.json
+
+# Archivos relacionados con tu IDE o entorno de desarrollo
+.vscode/
+
